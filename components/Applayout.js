@@ -1,6 +1,7 @@
 import React from "react"
 import { Layout, Menu, Breadcrumb,Row, Col } from 'antd';
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
+import Link from 'next/link';
 
 
 
@@ -12,10 +13,10 @@ const AppLayout =({children})=>{
     return(
         <Layout>
             <Header className="header">
-            <div className="logo" style={{width: "100px",height: "50px",background:"#ff7875",float:"left",margin:"10px"}} />
+            <Link href="/"><a><div className="logo" style={{width: "100px",height: "50px",background:"#ff7875",float:"left",margin:"10px"}} /></a></Link>
             <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']} style={{float:"right",marginRight:"100px"}}>
-                <Menu.Item key="1">브랜드</Menu.Item>
-                <Menu.Item key="2">매장안내</Menu.Item>
+                <Menu.Item key="1"><Link href="/Brand"><a>브랜드</a></Link></Menu.Item>
+                <Menu.Item key="2"><Link href="/GuidanceStore"><a>매장안내</a></Link></Menu.Item>
                 <Menu.Item key="6">매뉴</Menu.Item>
                 <SubMenu key="sub2" icon={<LaptopOutlined />} title="창업">
                     <Menu.Item key="5">경쟁력</Menu.Item>

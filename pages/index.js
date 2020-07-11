@@ -7,9 +7,6 @@ const { Title } = Typography;
 const IndexPage = () => {
     return (
         <div>
-            {/* <Player>
-                <source src="https://youtu.be/jF2UdLgGxuw" />
-            </Player> */}
             <div>
                 <iframe width="100%" height="800" src="https://www.youtube.com/embed/jF2UdLgGxuw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
