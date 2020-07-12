@@ -17,7 +17,7 @@ const AppLayout =({children})=>{
             <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']} style={{float:"right",marginRight:"100px"}}>
                 <Menu.Item key="1"><Link href="/Brand"><a>브랜드</a></Link></Menu.Item>
                 <Menu.Item key="2"><Link href="/GuidanceStore"><a>매장안내</a></Link></Menu.Item>
-                <Menu.Item key="6">매뉴</Menu.Item>
+                <Menu.Item key="3"><Link href="/MenuPage"><a>메뉴</a></Link></Menu.Item>
                 <SubMenu key="sub2" icon={<LaptopOutlined />} title="창업">
                     <Menu.Item key="5">경쟁력</Menu.Item>
                     <Menu.Item key="6">가맹절차</Menu.Item>
