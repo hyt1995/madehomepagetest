@@ -19,8 +19,8 @@ const AppLayout =({children})=>{
                 <Menu.Item key="2"><Link href="/GuidanceStore"><a>매장안내</a></Link></Menu.Item>
                 <Menu.Item key="3"><Link href="/MenuPage"><a>메뉴</a></Link></Menu.Item>
                 <SubMenu key="sub2" icon={<LaptopOutlined />} title="창업">
-                    <Menu.Item key="5">경쟁력</Menu.Item>
-                    <Menu.Item key="6">가맹절차</Menu.Item>
+                    <Menu.Item key="5"><Link href="/CreateStoreCompetetion"><a>경쟁력</a></Link></Menu.Item>
+                    <Menu.Item key="6"><Link href="/FranchiseeProcess"><a>가맹절차</a></Link></Menu.Item>
                     <Menu.Item key="7">개설배용</Menu.Item>
                     <Menu.Item key="8">수익성</Menu.Item>
                 </SubMenu>

@@ -9,11 +9,11 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/GuidanceStore": [
+    "/CreateStoreCompetetion": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/MenuPage": [
+    "/FranchiseeProcess": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
