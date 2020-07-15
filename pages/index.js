@@ -1,25 +1,40 @@
 import React from 'react';
+import Link from 'next/link';
 import { Row, Col, Divider,Typography,Carousel } from 'antd';
+import img from "../public/13.jpg"
 // import logo from "../components/the-caucasus-5302236_1920.jpg"
 const style = { background: '#0092ff', padding: '8px 0' };
+// const backGround = {
+//     backgroundImage: `url(${img})`,
+//     backgroundSize: 'cover',
+//     overflow: 'hidden'
+// }
 const { Title } = Typography;
+
+{/* <img alt="fortest" src={require('../public/logo.jpg')} style={{width:"100%", height:"100%"}}/> */}
+
 
 const IndexPage = () => {
     return (
         <div>
-            <div>
+            {/* <div>
                 <iframe width="100%" height="800" src="https://www.youtube.com/embed/jF2UdLgGxuw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+            </div> */}
+            <img alt="fortest" src={require('../public/sky.jpg')} style={{width:"100%",height:"700px",opacity:"0.5" }}/>
+                <Link href="/"><a><div className="logo" />
+                    <img alt="fortest" src={require('../public/back3.png')} style={{width:"500px", height:"200px", position:"absolute", right:"100px", top:"100px",opacity:"1"}}/>
+                    </a>
+                </Link>
             <div>
                 <Divider orientation="left" style={{ color: '#333', fontWeight: 'normal' }}>
                     Horizontal
                 </Divider>
                 <Row gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 },{ xs: 8, sm: 16, md: 24, lg: 32 }]} style={{padding:"200px"}} >
                     <Col className="gutter-row" xs = {24}  sm = {24}  md = {24}  lg = {8}>
-                        <div>사진</div>
+                        <img alt="fortest" src={require('../public/2.jpg')} style={{width:"100%", height:"500px"}}/>
                     </Col>
                     <Col className="gutter-row" xs = {24}  sm = {24}  md = {24}  lg = {8}>
-                        <div style={style}>사진</div>
+                        <img alt="fortest" src={img} style={{width:"100%", height:"500px"}}/>
                     </Col>
                     <Col className="gutter-row" xs = {24}  sm = {24}  md = {24}  lg = {8}>
                         <div style={style}>
@@ -45,26 +60,26 @@ const IndexPage = () => {
                 </Row>
                 <Row gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 },{ xs: 8, sm: 16, md: 24, lg: 32 }]} style={{padding:"200px"}}>
                     <Col className="gutter-row" xs = {24}  sm = {24}  md = {24}  lg = {12}>
-                        <div style={style}>사진6</div>
+                        <img alt="fortest" src={require('../public/6.jpg')} style={{width:"100%", height:"500px"}}/>
                     </Col>
                     <Col className="gutter-row" xs = {24}  sm = {24}  md = {24}  lg = {12}>
-                        <div style={style}>사진</div>
+                        <img alt="fortest" src={require('../public/7.jpg')} style={{width:"100%", height:"500px"}}/>
                     </Col>
                 </Row>
             </div>
-            <div>
-            <Carousel autoplay effect="fade" style={{textAlign: "center",height: "350px",lineHeight: "200px",background: "#364d79",overflow: "hidden"}}>
+            <div style={{padding:"200px"}}>
+            <Carousel autoplay effect="fade" style={{textAlign: "center",height: "500px",lineHeight: "200px",background: "#364d79",overflow: "hidden"}}>
                 <div>
-                <h3>1</h3>
+                    <img alt="fortest" src={require('../public/11.jpg')} style={{width:"100%", height:"500px"}}/>
                 </div>
                 <div>
-                <h3>2</h3>
+                    <img alt="fortest" src={require('../public/12.jpg')} style={{width:"100%", height:"500px"}}/>
                 </div>
                 <div>
-                <h3>3</h3>
+                    <img alt="fortest" src={require('../public/14.jpg')} style={{width:"100%", height:"500px"}}/>
                 </div>
                 <div>
-                <h3>4</h3>
+                    <img alt="fortest" src={require('../public/3.jpg')} style={{width:"100%", height:"500px"}}/>
                 </div>
             </Carousel>
             </div>
@@ -72,13 +87,13 @@ const IndexPage = () => {
                 Menu
             </Divider>
             <Row style={{padding:"200px"}}>
-                <Col className="gutter-row" >
-                    <div style={{width:"100%"}}>개인진 큰거</div>
+                <Col className="gutter-row" span={24} >
+                    <img alt="fortest" src={require('../public/9.jpeg')} style={{width:"100%", height:"500px"}}/>
                 </Col>
             </Row>
             <Row gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 },{ xs: 8, sm: 16, md: 24, lg: 32 }]} style={{padding:"200px"}}>
                 <Col className="gutter-row" xs = {24}  sm = {24}  md = {24}  lg = {16}>
-                    <div style={style}>지도옆에 사진</div>
+                    <img alt="fortest" src={require('../public/10.jpg')} style={{width:"100%", height:"500px"}}/>
                 </Col>
                 <Col className="gutter-row" xs = {24}  sm = {24}  md = {24}  lg = {8}>
                     <div style={style}>지도부분이 나올 곳</div>

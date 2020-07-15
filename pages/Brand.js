@@ -1,24 +1,22 @@
 import React from 'react';
-// import logo from "./logo"
+
 import { Row, Col, Divider,Typography } from 'antd';
 const { Title } = Typography;
-
-
-
+// import img from "../next.config"
 
 
 const Brand =()=>{
     return(
         <div>
             <div>
-                <img src="/home/gksdudxkr/제로초/homepage/pages/logo.jpg" style={{width:"100%", height:"200px"}}/>
+                <img alt="fortest" src={require('../public/logo.jpg')} style={{width:"100%", height:"200px"}}/>
             </div>
             <Row gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 },{ xs: 8, sm: 16, md: 24, lg: 32 }]} style={{padding:"200px"}}>
-                <Col xs = {24}  sm = {24}  md = {24}  lg = {16}>
+                <Col xs = {24}  sm = {24}  md = {24}  lg = {14}>
                     <Title level={2}>
                         안산(본점)에서 4년간 주류판매량 1위,
                         <br />
-                        검증된 핫플레이스 로 주요 메인상권에서 강세
+                        검증된 핫플레이스로 주요 메인상권에서 강세
                     </Title>
                     <Divider orientation="left" style={{ color: '#333', fontWeight: 'normal' }}>
                         Horizontal
@@ -43,8 +41,8 @@ const Brand =()=>{
                     <br />
                     분위기-음식-가격-서비스-음악 모든걸 충족시켜주는 공간으로서 감동을 선사해 드립니다.
                 </Col>
-                <Col xs = {24}  sm = {24}  md = {24}  lg = {8}>
-                    <img src="/home/gksdudxkr/제로초/homepage/pages/logo.jpg" style={{width:"600px", height:"600px"}}/>
+                <Col xs = {24}  sm = {24}  md = {24}  lg = {8} >
+                    <img alt="fortest" src={require('../public/logo.jpg')} style={{width:"600px", height:"600px"}} />
                 </Col>
             </Row>
         </div>
