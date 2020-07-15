@@ -32,7 +32,6 @@ const text =
 
 감사합니다.
 
-​
 
 Club Octagon official
 </Title>
