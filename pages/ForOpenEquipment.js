@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Row, Col,Typography,Steps, Divider } from 'antd';
+import { Row, Col,Typography,Steps, Divider,Timeline } from 'antd';
 
 
 const { Title } = Typography;

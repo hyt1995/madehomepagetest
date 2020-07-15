@@ -13,11 +13,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/Brand": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/GuidanceStore": [
+    "/ForOpenEquipment": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -33,10 +29,6 @@
       "static/runtime/polyfills.js"
     ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
