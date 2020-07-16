@@ -1,49 +1,63 @@
-import React from 'react';
-import { Row, Col, Divider,Typography,Carousel } from 'antd';
+import React, { useState } from 'react';
+import { Row, Col, Divider,Typography,Carousel,Drawer, Button, Radio, Space } from 'antd';
 const { Title } = Typography;
+import variable from "../components/textvariable"
 
-const MenuPageArray = [
-    {
-        picture:<img src="/home/gksdudxkr/제로초/homepage/pages/logo.jpg" style={{width:"100%", height:"200px"}}/>,
-        name:"오지치즈 후라이",
-        bill: "6.900"
-    },
-    {
-        picture:<img src="/home/gksdudxkr/제로초/homepage/pages/logo.jpg" style={{width:"100%", height:"200px"}}/>,
-        name:"오지치즈 후라이",
-        bill: "6.900"
-    },
-    {
-        picture:<img src="/home/gksdudxkr/제로초/homepage/pages/logo.jpg" style={{width:"100%", height:"200px"}}/>,
-        name:"오지치즈 후라이",
-        bill: "6.900"
-    },
-    {
-        picture:<img src="/home/gksdudxkr/제로초/homepage/pages/logo.jpg" style={{width:"100%", height:"200px"}}/>,
-        name:"오지치즈 후라이",
-        bill: "6.900"
-    },
-    {
-        picture:<img src="/home/gksdudxkr/제로초/homepage/pages/logo.jpg" style={{width:"100%", height:"200px"}}/>,
-        name:"오지치즈 후라이",
-        bill: "6.900"
-    },
-    {
-        picture:<img src="/home/gksdudxkr/제로초/homepage/pages/logo.jpg" style={{width:"100%", height:"200px"}}/>,
-        name:"오지치즈 후라이",
-        bill: "6.900"
-    },
-]
+const TestPage =()=>{
 
-const MenuPage =()=>{
+    const [placement, setPlacement] = useState('top')
 
 
-    const DisplqyMenuPageArray = MenuPageArray.map((result,key)=>{
+
+    const onChangevalue =(e)=>{
+        setPlacement(e.target.value)
+    }
+
+
+    const DisplayTop = variable.TopArray.map((result,key)=>{
         return(
             <Col span={6}>
               <Row>{result.picture}</Row>
-              <Row>{result.name}</Row>
-              <Row>{result.bill}</Row>
+              <div>
+                <Row><Title level={3}>{result.name}</Title></Row>
+                <Row><Title level={3}>{result.bill}</Title></Row>
+              </div>
+            </Col>
+        )
+    })
+
+    const DisplayRight = variable.RightArray.map((result,key)=>{
+        return(
+            <Col span={6}>
+              <Row>{result.picture}</Row>
+              <div>
+                <Row><Title level={3}>{result.name}</Title></Row>
+                <Row><Title level={3}>{result.bill}</Title></Row>
+              </div>
+            </Col>
+        )
+    })
+
+    const DisplayBottom = variable.BottomArray.map((result,key)=>{
+        return(
+            <Col span={6}>
+              <Row>{result.picture}</Row>
+              <div>
+                <Row><Title level={3}>{result.name}</Title></Row>
+                <Row><Title level={3}>{result.bill}</Title></Row>
+              </div>
+            </Col>
+        )
+    })
+
+    const DisplayLeft = variable.LeftArray.map((result,key)=>{
+        return(
+            <Col span={6}>
+              <Row>{result.picture}</Row>
+              <div>
+                <Row><Title level={3}>{result.name}</Title></Row>
+                <Row><Title level={3}>{result.bill}</Title></Row>
+              </div>
             </Col>
         )
     })
@@ -51,25 +65,38 @@ const MenuPage =()=>{
 
     return(
         <div>
-            <img src="/home/gksdudxkr/제로초/homepage/pages/logo.jpg" style={{width:"100%", height:"300px"}}/>
+            <img alt="fortest" src={require('../public/양주/양주3.jpeg')} style={{width:"100%",height:"500px"}}/>
             <div>
-                <Row style={{padding:"40px 100px 20px 100px"}}>
-                    <Col span={24}>
-                        <img src="/home/gksdudxkr/제로초/homepage/pages/logo.jpg" style={{width:"100%", height:"400px"}}/>
-                    </Col>
+                <Row >
+                    
                 </Row>
+            
+            
                 <Row style={{padding:"40px 100px 20px 100px"}}>
                     <Col>
                         <Divider orientation="left" style={{ color: '#000000', fontWeight: 'normal', borderBlockColor: '#000000' }}>
-                            <Title level={2}>Food Menu</Title>
+                            <Title level={2}>1987 LOOPTOP Menu</Title>
                         </Divider>
+                    </Col>
+                    <Col span={8} offset={16}>
+                        <Space>
+                            <Radio.Group 
+                            defaultValue={placement} onChange={onChangevalue}
+                            >
+                                <Radio value="top">양주</Radio>
+                                <Radio value="right">칵테일</Radio>
+                                <Radio value="bottom">안주</Radio>
+                                <Radio value="left">메뉴판</Radio>
+                            </Radio.Group>
+                        </Space>
                     </Col>
                 </Row>
                 <Row 
                   style={{padding:"40px 100px 20px 100px"}}
                   gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 },{ xs: 8, sm: 16, md: 24, lg: 32 }]}
                 >
-                    {DisplqyMenuPageArray}
+                    {placement === "top" ? DisplayTop : placement === "right" ? DisplayRight : placement === "bottom" ?  DisplayBottom : DisplayLeft }
+                    {/* {DisplqyMenuPageArray} */}
                 </Row>
             </div>
         </div>
@@ -77,9 +104,4 @@ const MenuPage =()=>{
 }
 
 
-
-
-
-
-
-export default MenuPage;
+export default TestPage;
