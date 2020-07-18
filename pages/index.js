@@ -4,6 +4,7 @@ import { Row, Col, Divider,Typography,Carousel,Timeline } from 'antd';
 import img from "../public/13.jpg"
 // import logo from "../components/the-caucasus-5302236_1920.jpg"
 import {LoadingOutlined } from '@ant-design/icons';
+import ForIndexMap from '../components/ForIndexMap';
 
 const style = { background: '#f0f0f0', height:"500px" };
 
@@ -71,7 +72,7 @@ const brand = <div style={{textAlign:"center", padding: "100px 30px 100px 30px"}
     </Title>
 </div>
 
-const IndexPage = () => {
+const IndexPage = ({props}) => {
     return (
         <div>
             <Carousel autoplay effect="fade" style={{textAlign: "center",height: "500px",lineHeight: "200px",background: "#364d79",overflow: "hidden"}}>
@@ -194,7 +195,7 @@ const IndexPage = () => {
                     <img alt="fortest" src={require('../public/10.jpg')} style={{width:"100%", height:"500px"}}/>
                 </Col>
                 <Col className="gutter-row" xs = {24}  sm = {24}  md = {24}  lg = {8}>
-                    <div style={style}>지도부분이 나올 곳</div>
+                    <ForIndexMap />
                 </Col>
             </Row>
             <Divider orientation="left" style={{ color: '#000000', fontWeight: 'normal', borderBlockColor: '#000000' }}>

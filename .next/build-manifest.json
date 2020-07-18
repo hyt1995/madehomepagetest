@@ -9,11 +9,19 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/Brand": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
     "/GuidanceStore": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/MenuPage": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -27,6 +35,10 @@
     ],
     "/_polyfills": [
       "static/runtime/polyfills.js"
+    ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

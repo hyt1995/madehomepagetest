@@ -216,6 +216,80 @@ const variable = {
             name:"dkemfdmf eotls",
             bill: "11.900"
         },
+    ],
+    ForGuidanceStoreArray:[
+        {
+            picture:"",
+            store:"1987 looptoop",
+            localaddress:"서울특별시 영등포구",
+            maplat:"37.52643587",
+            maplng:"126.87600409",
+            sales: "3000000만원",
+            지점장: "아무개"
+        },
+        {
+            picture:"",
+            store:"1987 looptoop",
+            localaddress:"경기도 수원시 권선구",
+            maplat:"37.25760626",
+            maplng:"126.97190274",
+            sales: "3000000만원",
+            지점장: "아무개"
+        },
+        {
+            picture:"",
+            store:"1987 looptoop",
+            localaddress:"서울특별시 중구",
+            maplat:"3",
+            maplng:"126.87600409",
+            sales: "3000000만원",
+            지점장: "아무개"
+        },
+        {
+            picture:"",
+            store:"1987 looptoop",
+            localaddress:"서울특별시 중랑구",
+            maplat:"37.60652774",
+            maplng:"126.09281389",
+            sales: "3000000만원",
+            지점장: "아무개"
+        },
+        {
+            picture:"",
+            store:"1987 looptoop",
+            localaddress:"서울특별시 노원구",
+            maplat:"37.65435844",
+            maplng:"126.05647335",
+            sales: "3000000만원",
+            지점장: "아무개"
+        },
+        {
+            picture:"",
+            store:"1987 looptoop",
+            localaddress:"서울특별시 성동구",
+            maplat:"37.5634306",
+            maplng:"126.03706964",
+            sales: "3000000만원",
+            지점장: "아무개"
+        },
+        {
+            picture:"",
+            store:"1987 looptoop",
+            localaddress:"서울특별시 종로구",
+            maplat:"37.57307497",
+            maplng:"126.97968409",
+            sales: "3000000만원",
+            지점장: "아무개"
+        },
+        {
+            picture:"",
+            store:"1987 looptoop",
+            localaddress:"서울특별시 동대문구",
+            maplat:"37.57441117",
+            maplng:"127.03996869",
+            sales: "3000000만원",
+            지점장: "아무개"
+        },
     ]
 }
 
