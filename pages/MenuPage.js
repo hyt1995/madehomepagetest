@@ -19,8 +19,8 @@ const TestPage =()=>{
             <Col span={6}>
               <Row>{result.picture}</Row>
               <div>
-                <Row><Title level={3}>{result.name}</Title></Row>
-                <Row><Title level={3}>{result.bill}</Title></Row>
+                <Row><Title level={3} style={{color: '#ffffff'}} >{result.name}</Title></Row>
+                <Row><Title level={3} style={{color: '#ffffff'}} >{result.bill}</Title></Row>
               </div>
             </Col>
         )
@@ -31,8 +31,8 @@ const TestPage =()=>{
             <Col span={6}>
               <Row>{result.picture}</Row>
               <div>
-                <Row><Title level={3}>{result.name}</Title></Row>
-                <Row><Title level={3}>{result.bill}</Title></Row>
+                <Row><Title level={3} style={{color: '#ffffff'}} >{result.name}</Title></Row>
+                <Row><Title level={3} style={{color: '#ffffff'}} >{result.bill}</Title></Row>
               </div>
             </Col>
         )
@@ -43,8 +43,8 @@ const TestPage =()=>{
             <Col span={6}>
               <Row>{result.picture}</Row>
               <div>
-                <Row><Title level={3}>{result.name}</Title></Row>
-                <Row><Title level={3}>{result.bill}</Title></Row>
+                <Row><Title level={3} style={{color: '#ffffff'}} >{result.name}</Title></Row>
+                <Row><Title level={3} style={{color: '#ffffff'}} >{result.bill}</Title></Row>
               </div>
             </Col>
         )
@@ -55,8 +55,8 @@ const TestPage =()=>{
             <Col span={6}>
               <Row>{result.picture}</Row>
               <div>
-                <Row><Title level={3}>{result.name}</Title></Row>
-                <Row><Title level={3}>{result.bill}</Title></Row>
+                <Row><Title level={3} style={{color: '#ffffff'}} >{result.name}</Title></Row>
+                <Row><Title level={3} style={{color: '#ffffff'}} >{result.bill}</Title></Row>
               </div>
             </Col>
         )
@@ -64,7 +64,7 @@ const TestPage =()=>{
 
 
     return(
-        <div>
+        <div style={{backgroundColor:"#000000"}}>
             <img alt="fortest" src={require('../public/양주/양주3.jpeg')} style={{width:"100%",height:"500px"}}/>
             <div>
                 <Row >
@@ -74,19 +74,19 @@ const TestPage =()=>{
             
                 <Row style={{padding:"40px 100px 20px 100px"}}>
                     <Col>
-                        <Divider orientation="left" style={{ color: '#000000', fontWeight: 'normal', borderBlockColor: '#000000' }}>
-                            <Title level={2}>1987 LOOPTOP Menu</Title>
+                        <Divider orientation="left" style={{fontWeight: 'normal', borderBlockColor: '#000000' }}>
+                            <Title level={2} style={{color: '#ffffff'}}>1987 LOOPTOP Menu</Title>
                         </Divider>
                     </Col>
                     <Col span={8} offset={16}>
                         <Space>
                             <Radio.Group 
-                            defaultValue={placement} onChange={onChangevalue}
+                            defaultValue={placement} onChange={onChangevalue} 
                             >
-                                <Radio value="top">양주</Radio>
-                                <Radio value="right">칵테일</Radio>
-                                <Radio value="bottom">안주</Radio>
-                                <Radio value="left">메뉴판</Radio>
+                                <Radio value="top" style={{color: '#ffffff'}}>양주</Radio>
+                                <Radio value="right" style={{color: '#ffffff'}}>칵테일</Radio>
+                                <Radio value="bottom" style={{color: '#ffffff'}}>안주</Radio>
+                                <Radio value="left" style={{color: '#ffffff'}}>메뉴판</Radio>
                             </Radio.Group>
                         </Space>
                     </Col>

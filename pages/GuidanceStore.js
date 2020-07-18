@@ -20,7 +20,7 @@ const GuidanceStore=()=>{
     })
 
     return(
-        <div>
+        <div style={{backgroundColor:"#000000"}} >
             <Carousel autoplay effect="fade" style={{textAlign: "center",height: "350px",lineHeight: "200px",background: "#364d79",overflow: "hidden"}}>
                 <div>
                 <h3>1</h3>
