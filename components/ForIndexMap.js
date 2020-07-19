@@ -39,7 +39,7 @@ class ForIndexMap extends React.Component {
 
     render(){
         const mapStyles = {
-            width: "100%",
+            width: "95%",
             height: "100%",
         };
         const eventmarkers = this.state.eventlist.map((item,i)=>{
