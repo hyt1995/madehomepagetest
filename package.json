@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
-    "start": "NODE_ENV=production PORT=80 next start"
+    "start": "NODE_ENV=production next start -p 80"
   },
   "author": "",
   "license": "ISC",

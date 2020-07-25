@@ -7,18 +7,18 @@ withImages({
   webpack(config, options) {
     return config
   }
-}),
-withVideos({
-  assetDirectory: 'static',
- 
-  webpack(config, options) {
-    return config
-  }
 })
 
 
 
-
+// module.exports = {
+//   exportTrailingSlash: true,
+//   exportPathMap: function() {
+//     return {
+//       '/': { page: '/' }
+//     };
+//   }
+// };
 
 
 
