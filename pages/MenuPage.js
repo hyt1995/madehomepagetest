@@ -92,13 +92,15 @@ const TestPage =()=>{
                     </Col>
                 </Row>
                 <Row 
-                  style={{padding:"40px 100px 20px 100px"}}
+                  style={{padding:"40px 100px 20px 100px",margin:"0px"}}
                   gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 },{ xs: 8, sm: 16, md: 24, lg: 32 }]}
                 >
                     {placement === "top" ? DisplayTop : placement === "right" ? DisplayRight : placement === "bottom" ?  DisplayBottom : DisplayLeft }
                     {/* {DisplqyMenuPageArray} */}
                 </Row>
             </div>
+            <Divider orientation="left" style={{borderColor: '#ffffff',margin:"0px" }}>
+            </Divider>
         </div>
     )
 }

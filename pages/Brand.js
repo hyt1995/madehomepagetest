@@ -14,7 +14,7 @@ const Brand =()=>{
             <Row gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 },{ xs: 8, sm: 16, md: 24, lg: 32 }]} style={{padding:"100px", margin:"0px"}}>
                 <Col xs = {24}  sm = {24}  md = {24}  lg = {12} >
                     <div style={{marginTop:"50px"}}>
-                    <Title level={2} style={{color:"#ffffff"}}>
+                    <Title style={{color:"#ffffff",fontSize:"200%"}}>
                         안산(본점)에서 4년간 주류판매량 1위,
                         <br />
                         검증된 핫플레이스로 주요 메인상권에서 강세
@@ -46,9 +46,11 @@ const Brand =()=>{
                     </div>
                 </Col>
                 <Col xs = {24}  sm = {24}  md = {24}  lg = {10}>
-                    <img alt="fortest" src={require('../public/brand4.png')} style={{width:"880px", height:"800px"}} />
+                    <img alt="fortest" src={require('../public/brand4.png')} style={{width:"120%", height:"120%"}} />
                 </Col>
             </Row>
+            <Divider orientation="left" style={{borderColor: '#ffffff',margin:"0px" }}>
+            </Divider>
         </div>
     )
 }
