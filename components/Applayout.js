@@ -21,7 +21,7 @@ const { Header, Content, Footer, Sider } = Layout;
 const AppLayout =({children})=>{
     return(
         <Layout>
-            <Menu theme="dark"  mode="horizontal"  style={{textAlign:"center", height:"80px",padding:"15px"}}>
+            <Menu   mode="horizontal"  style={{textAlign:"center", height:"80px",padding:"15px"}}>
                 <Menu.Item key="1"><Link href="/"><a>home</a></Link></Menu.Item>
                 <Menu.Item key="2"><Link href="/Brand"><a>브랜드</a></Link></Menu.Item>
                 <Menu.Item key="3"><Link href="/GuidanceStore"><a>매장안내</a></Link></Menu.Item>
@@ -63,7 +63,7 @@ const AppLayout =({children})=>{
              }}>{children}</Content>
       </Layout>
     </Content>
-    <Footer style={{ textAlign: 'center', backgroundColor:"#ffffff", color:"#000000" }}>
+    <Footer style={{ textAlign: 'center', backgroundColor:"#000000", color:"#ffffff" }}>
         여기는 Footer부분입니다. 여기서 맨 밑에 까지 끌어야한다
         <div>
             <br />

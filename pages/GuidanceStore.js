@@ -1,6 +1,6 @@
 import React from 'react';
 import { Map, GoogleApiWrapper,Marker,InfoWindow } from "google-maps-react"
-import { Row, Col,Typography,Carousel,Card } from 'antd';
+import { Row, Col,Typography,Carousel,Card,Divider } from 'antd';
 import variable from "../components/textvariable"
 
 const { ForGuidanceStoreArray } = variable
@@ -147,9 +147,13 @@ class GuidanceStore extends React.Component{
                <Col>
                </Col>
             </Row>
-            <Row gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 },{ xs: 8, sm: 16, md: 24, lg: 32 }]} style={{padding:"100px"}} >
+            <Divider orientation="left" style={{borderColor: '#ffffff',margin:"0px" }}>
+            </Divider>
+            <Row gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 },{ xs: 8, sm: 16, md: 24, lg: 32 }]} style={{padding:"100px",margin:"0px"}} >
             {DisplayArray}
             </Row>
+            <Divider orientation="left" style={{borderColor: '#ffffff',margin:"0px" }}>
+            </Divider>
         </div>
     )
     }
