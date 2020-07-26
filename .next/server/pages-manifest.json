@@ -1,5 +1,2 @@
-<<<<<<< HEAD
-{"/Brand":"static/dwhG3UURliQJaNIE6r6Kz/pages/Brand.html","/CreateStoreCompetetion":"static/dwhG3UURliQJaNIE6r6Kz/pages/CreateStoreCompetetion.html","/ForOpenEquipment":"static/dwhG3UURliQJaNIE6r6Kz/pages/ForOpenEquipment.html","/FranchiseeProcess":"static/dwhG3UURliQJaNIE6r6Kz/pages/FranchiseeProcess.html","/GuidanceStore":"static/dwhG3UURliQJaNIE6r6Kz/pages/GuidanceStore.html","/MenuPage":"static/dwhG3UURliQJaNIE6r6Kz/pages/MenuPage.html","/_app":"static/dwhG3UURliQJaNIE6r6Kz/pages/_app.js","/_document":"static/dwhG3UURliQJaNIE6r6Kz/pages/_document.js","/_error":"static/dwhG3UURliQJaNIE6r6Kz/pages/_error.js","/index":"static/dwhG3UURliQJaNIE6r6Kz/pages/index.html","/":"static/dwhG3UURliQJaNIE6r6Kz/pages/index.html","/404":"static/dwhG3UURliQJaNIE6r6Kz/pages/404.html"}
-=======
-{"/Brand":"static/development/pages/Brand.js","/GuidanceStore":"static/development/pages/GuidanceStore.js","/MenuPage":"static/development/pages/MenuPage.js","/_app":"static/development/pages/_app.js","/_document":"static/development/pages/_document.js","/_error":"static/development/pages/_error.js","/index":"static/development/pages/index.js","/":"static/development/pages/index.js"}
->>>>>>> 445ccbf8a0ea39941038c74cf02672908ebc70e6
+
+{"/MenuPage":"static/development/pages/MenuPage.js","/_app":"static/development/pages/_app.js","/_document":"static/development/pages/_document.js","/_error":"static/development/pages/_error.js","/index":"static/development/pages/index.js","/":"static/development/pages/index.js"}

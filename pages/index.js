@@ -101,7 +101,7 @@ const IndexPage = ({props}) => {
                 <Divider orientation="left" style={{ borderColor: '#ffffff', fontWeight: 'normal' }}>
                 </Divider>
 
-                <Timeline mode="alternate" style={{padding:"30px 200px 30px 200px"}}>
+                <Timeline mode="alternate" style={{padding:"30px 200px 30px 200px",width:"1900px"}}>
                     <Timeline.Item dot={<LoadingOutlined style={{fontSize:"20px", color: "red"}} />} label={about} style={{padding:"30px 0px 100px 0px"}} >
                     </Timeline.Item>
                     <Timeline.Item dot={<LoadingOutlined style={{fontSize:"20px", color: "red"}} />} label={text} style={{padding:"30px 0px 50px 0px"}} >
@@ -124,7 +124,7 @@ const IndexPage = ({props}) => {
                         <img alt="fortest" src={require('../public/3.jpg')} style={{width:"600px",height:"auto" }}/>
                     </Timeline.Item>
                     <Timeline.Item dot={<LoadingOutlined style={{fontSize:"20px", color: "red"}} />} label={brand} style={{padding:"30px 0px 50px 0px"}} >
-                        <img alt="fortest" src={require('../public/3.jpg')} style={{width:"100%",height:"auto" }}/>
+                        <img alt="fortest" src={require('../public/3.jpg')} style={{width:"100%",height:"400px", padding:"20px" }}/>
                     </Timeline.Item>
                 </Timeline>
                 <Row gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 },{ xs: 8, sm: 16, md: 24, lg: 32 }]} style={{padding:"30px 200px 30px 200px"}} >

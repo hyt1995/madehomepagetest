@@ -61,14 +61,6 @@
       "static/chunks/965ae64b117a55b920ee2106ca1093a39a4f3553.5e5889f932d81136a430.js",
       "static/runtime/main-1a0c04b54fe312b9fce0.js"
     ],
-    "/Brand": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/GuidanceStore": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/MenuPage": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
