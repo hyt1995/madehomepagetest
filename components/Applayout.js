@@ -64,7 +64,6 @@ const AppLayout =({children})=>{
       </Layout>
     </Content>
     <Footer style={{ textAlign: 'center', backgroundColor:"#000000", color:"#ffffff" }}>
-        여기는 Footer부분입니다. 여기서 맨 밑에 까지 끌어야한다
         <div>
             <br />
         </div>
@@ -73,32 +72,32 @@ const AppLayout =({children})=>{
                 <Row>
                     <Col>
                     <Row>
-                        dfsdlfnlksnfknfv
+                        looptop 1987
                     </Row>
-                        <div>회사명: ovierhfvkjdnfk</div>
+                        <div>회사명: looptop 1987</div>
                         <Row>
-                        dfsdlfnlksnfknfv
+                        looptop 1987
                     </Row>
                     <Row>
-                        dfsdlfnlksnfknfv
+                    looptop 1987
                     </Row>
                     </Col>
                     <Col>
-                        <div>회사명: ovierhfvkjdnfk</div>
+                        <div>회사명: looptop 1987</div>
                     </Col>
                     <Col>
-                        <div>회사명: ovierhfvkjdnfk</div>
+                        <div>회사명: looptop 1987</div>
                     </Col>
                     <Col>
-                        <div>회사명: ovierhfvkjdnfk</div>
+                        <div>회사명: looptop 1987</div>
                     </Col>
                 </Row>
             </Col>
             <Col className="gutter-row" xs = {24}  sm = {24}  md = {5}  lg = {5} >
-                <div>회사명: ovierhfvkjdnfk</div>
+                <div>회사명: looptop 1987</div>
             </Col>
             <Col className="gutter-row" xs = {24}  sm = {24}  md = {6}  lg = {6} >
-                <div>회사명: ovierhfvkjdnfk</div>
+                <div>회사명: looptop 1987</div>
             </Col>
         </Row>
     </Footer>

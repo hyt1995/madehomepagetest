@@ -83,7 +83,7 @@ class GuidanceStore extends React.Component{
                     <Card
                     hoverable
                     style={{ width: "100%" }}
-                    cover={<img alt= "매장이름"  src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                    cover={result.picture}
                     >
                         <Meta title={Info} description={InfoChild} />
                     </Card>
@@ -109,7 +109,7 @@ class GuidanceStore extends React.Component{
 
     return(
         <div style={{backgroundColor:"#000000"}} >
-            <Carousel autoplay effect="fade" style={{textAlign: "center",height: "350px",lineHeight: "200px",background: "#364d79",overflow: "hidden"}}>
+            <Carousel autoplay effect="fade" style={{textAlign: "center",height: "400px",lineHeight: "200px",background: "#364d79",overflow: "hidden"}}>
                 <div>
                     <h3>1</h3>
                 </div>

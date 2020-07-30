@@ -59,14 +59,14 @@ class ForIndexMap extends React.Component {
                     google = {this.props.google}
                     zoom={8} //14
                     style={mapStyles}
-                    initialCenter={{ lat:37.60652774, lng:126.09281389 }}
+                    initialCenter={{ lat:37.57441117, lng:127.03996869 }}
                     onClick={this.onmapclick}
                   >
                       {/* {eventmarkers} */}
                       <Marker 
-                        name={"Current location"}
+                        name={"looptop 본사위치"}
                         title={"center maker"} 
-                        position={{ lat:37.60652774, lng:126.09281389 }}
+                        position={{ lat:37.57441117, lng:127.03996869 }}
                         onClick={this.onmarkerclick}
                       />
                         <InfoWindow 
