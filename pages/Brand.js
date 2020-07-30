@@ -15,7 +15,7 @@ const Brand =()=>{
                 <Col xs = {24}  sm = {24}  md = {24}  lg = {12} >
                     <div style={{marginTop:"50px"}}>
                     <Title style={{color:"#ffffff",fontSize:"200%"}}>
-                        안산(본점)에서 4년간 주류판매량 1위,
+                        경기(본점)에서 4년간 주류판매량 1위,
                         <br />
                         검증된 핫플레이스로 주요 메인상권에서 강세
                     </Title>
