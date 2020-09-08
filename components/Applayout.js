@@ -20,8 +20,8 @@ const { Header, Content, Footer, Sider } = Layout;
 
 const AppLayout =({children})=>{
     return(
-        <Layout>
-            <Menu   mode="horizontal"  style={{textAlign:"center", height:"80px",padding:"15px"}}>
+        <Layout style={{position:"relative",display:"block"}}>
+            <Menu mode="horizontal"  style={{textAlign:"center", height:"80px",padding:"15px",position:"fixed",display:"block",width:"100%",zIndex:"2"}}>
                 <Menu.Item key="1"><Link href="/"><a>home</a></Link></Menu.Item>
                 <Menu.Item key="2"><Link href="/Brand"><a>브랜드</a></Link></Menu.Item>
                 <Menu.Item key="3"><Link href="/GuidanceStore"><a>매장안내</a></Link></Menu.Item>
@@ -54,15 +54,18 @@ const AppLayout =({children})=>{
             </Header> */}
 
             <Content>
-            <Layout 
-                className="site-layout-background" 
-            >
-        <Content style={{ 
-            minHeight: 280,
-            backgroundColor:"#ffffff"
-             }}>{children}</Content>
-      </Layout>
-    </Content>
+                <Layout 
+                    className="site-layout-background" 
+                >
+                <Content style={{ 
+                        minHeight: 280,
+                        backgroundColor:"#ffffff"
+                        }}>{children}</Content>
+                </Layout>
+            </Content>
+
+
+
     <Footer style={{ textAlign: 'center', backgroundColor:"#000000", color:"#ffffff" }}>
         <div>
             <br />
