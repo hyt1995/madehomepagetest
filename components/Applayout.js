@@ -14,20 +14,12 @@ const AppLayout =({children})=>{
             <Layout style={{position:"relative"}}>
 
                 <Menu mode="horizontal"  style={{textAlign:"center",position:"fixed",display:"block",width:"100%",zIndex:"2",lineHeight:"70px"}}>
-                    <Menu.Item key="1"><Link href="/"><a>home</a></Link></Menu.Item>
-                    <Menu.Item key="2"><Link href="/Brand"><a>브랜드</a></Link></Menu.Item>
-                    <Menu.Item key="3"><Link href="/GuidanceStore"><a>매장안내</a></Link></Menu.Item>
-                    <Menu.Item key="4"><Link href="/MenuPage"><a>메뉴</a></Link></Menu.Item>
-                    {/* <SubMenu key="sub2"
-                    //  icon={<LaptopOutlined />} 
-                    title="창업"
-                    >
-                        <Menu.Item key="5"><Link href="/CreateStoreCompetetion"><a>경쟁력</a></Link></Menu.Item>
-                        <Menu.Item key="6"><Link href="/FranchiseeProcess"><a>가맹절차</a></Link></Menu.Item>
-                        <Menu.Item key="7"><Link href="/ForOpenEquipment"><a>개설비용 및 절차</a></Link></Menu.Item>
-                        <Menu.Item key="8">수익성</Menu.Item>
-                    </SubMenu>
-                    <Menu.Item key="9">뉴스</Menu.Item> */}
+                    {/* <Menu.Item key="1"><Link href="/"><a>HOME</a></Link></Menu.Item> */}
+                    <Menu.Item key="2"><Link href="/introduce"><a>회사소개</a></Link></Menu.Item>
+                    <Menu.Item key="3"><Link href="/ceointroduce"><a>대표소개</a></Link></Menu.Item>
+                    <Menu.Item key="6"><Link href="/"><a><img alt="fortest" src={require('../public/changelogo.png')} style={{width:"100px",height:"70px",margin:"10px"}}/></a></Link></Menu.Item>
+                    <Menu.Item key="4"><Link href="/Brand"><a>브랜드</a></Link></Menu.Item>
+                    <Menu.Item key="5"><Link href="/adversting"><a>1987 광고&마케팅</a></Link></Menu.Item>
                 </Menu>
 
 
@@ -35,20 +27,20 @@ const AppLayout =({children})=>{
                     <Layout>
                     <Content style={{ 
                             minHeight: 280,
-                            backgroundColor:"#000",
-                            margin:"0",
-                            padding:"0"
+                            margin:"70px 0 0 0",
+                            padding:"0",
+                            backgroundColor:"#000"
                             }}>{children}</Content>
                     </Layout>
                 </Content>
 
 
 
-                <Footer style={{ textAlign: 'center', backgroundColor:"#000000", color:"#ffffff",margin:0,borderTop:"2px solid #ffffff"}}>
-                    <div>
+                <Footer style={{ textAlign: 'center', backgroundColor:"#000000", color:"#ffffff",margin:0,borderTop:"1px solid #ffffff",padding:"0"}}>
+                    {/* <div>
                         <br />
-                    </div>
-                    <Row gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 },{ xs: 8, sm: 16, md: 24, lg: 32 }]} style={{paddingLeft:"150px", paddingRight:"150px"}}>
+                    </div> */}
+                    <Row gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 },{ xs: 8, sm: 16, md: 24, lg: 32 }]} style={{margin:"50px"}}>
                         <Col className="gutter-row" xs = {24}  sm = {24}  md = {13}  lg = {13} >
                             <Row>
                                 <Col>

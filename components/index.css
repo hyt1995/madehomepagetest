@@ -1,8 +1,4 @@
-/* html,body{
-    width:100%;
-    height:100%
-} */
-*{
+/* *{
     margin:0;
     padding:0;
 }
@@ -36,17 +32,10 @@ img{
     color: #ffffff;
     padding:0
 }
-.Timeline{
-    color:#ffffff;
-    margin: 40px auto;
-}
-.Timelinefontstyle{
-    font-size:0px;
-}
+
 .text1987{
     font-size: 40px;
     font-weight: bold;
-    /* line-height: 200px; */
     text-align: center;
     padding:60px;
 }
@@ -103,4 +92,37 @@ img{
     top: -25px;
     font-size: 1.5em;
     font-weight: bold;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@500&family=Noto+Serif+KR:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@1&display=swap');
+
+.Timeline{
+    color:#000000;
+}
+.Timelinefontstyle{
+    font-size:0px;
+    color: #f0f0f0;
+}
+.fontstty{
+    font-family: 'Noto Serif KR', serif;
+    font-size: 50px;
+    color: #f0f0f0;
+    font-size: 400%;
+    text-align: center;
+}
+
+.Carousel{
+    width:100%;
+    height:700px;
+    text-align: center;
+    margin:0;
+    display: block;
+    opacity: 0.7;
+}
+
+.timelineitem{
+    color: #f0f0f0;
+    font-size: 30px;
+    font-family: 'PT Serif Caption', serif;
 }
